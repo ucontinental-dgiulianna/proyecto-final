@@ -1,0 +1,25 @@
+{
+  "name": "Adicción a las redes y notas",
+  "short_name": "Redes y notas",
+  "description": "Proyecto académico interactivo sobre el impacto de las redes sociales en el rendimiento y las emociones.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6f7ff",
+  "theme_color": "#5f5dfc",
+  "icons": [
+    {
+      "src": "safework-mobile.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "safework-desktop.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

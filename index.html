@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Sitio académico interactivo sobre el impacto de las redes sociales en el rendimiento y las emociones." />
+    <meta name="theme-color" content="#5f5dfc" />
+    <title>El celular, la adicción a las redes y las notas</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">GR</div>
+          <div>
+            <strong>Grupo Nexo Digital</strong>
+            <small>Proyecto académico interactivo</small>
+          </div>
+        </div>
+
+        <nav class="nav-links" aria-label="Secciones del proyecto">
+          <button class="nav-btn active" data-page="presentacion" type="button">Inicio</button>
+          <button class="nav-btn" data-page="analisis" type="button">Análisis</button>
+          <button class="nav-btn" data-page="encuesta" type="button">Encuesta</button>
+          <button class="nav-btn" data-page="aprendizaje" type="button">Aprendizaje</button>
+          <button class="nav-btn" data-page="conclusiones" type="button">Conclusiones</button>
+          <button class="nav-btn" data-page="autoria" type="button">Yadira Giulianna</button>
+        </nav>
+
+        <button id="themeToggle" class="theme-btn" type="button" aria-label="Cambiar tema">☀️</button>
+      </header>
+
+      <div class="progress-track" aria-hidden="true">
+        <div id="progressFill"></div>
+      </div>
+
+      <main class="content">
+        <section id="presentacion" class="page-section active">
+          <div class="hero-card">
+            <p class="eyebrow">Presentación</p>
+            <h1>El celular, la adicción a las redes y las notas</h1>
+            <p class="intro">Una web académica interactiva que muestra cómo el diseño de TikTok e Instagram influye en nuestras emociones, hábitos y rendimiento académico.</p>
+            <div class="hero-actions">
+              <button class="primary-btn" data-page="encuesta" type="button">Ver investigación</button>
+              <button class="secondary-btn" data-page="analisis" type="button">Abrir análisis</button>
+            </div>
+          </div>
+
+          <div class="cards-grid">
+            <article class="info-card">
+              <h2>Resumen de la problemática</h2>
+              <p>Las plataformas de redes usan scroll infinito, notificaciones y recompensas visuales para captar la atención del usuario durante largos periodos.</p>
+            </article>
+            <article class="info-card">
+              <h2>Importancia del tema</h2>
+              <p>Comprender estas estrategias ayuda a fomentar hábitos digitales responsables y a reconocer el impacto emocional y académico del uso excesivo.</p>
+            </article>
+            <article class="info-card">
+              <h2>Estructura del sitio</h2>
+              <p>El proyecto está organizado en seis páginas dinámicas: presentación, análisis, encuesta, aprendizaje colaborativo, conclusiones y autoría.</p>
+            </article>
+            <article class="info-card">
+              <h2>Limitaciones de la investigación</h2>
+              <p>La muestra es limitada y el estudio se apoya en fuentes secundarias y datos de campo iniciales que pueden ampliarse en futuras investigaciones.</p>
+            </article>
+          </div>
+
+          <div class="footnote-card">
+            <p>Licencia Creative Commons BY-NC-SA 4.0</p>
+            <p>Fecha de publicación: <span id="year"></span></p>
+          </div>
+        </section>
+
+        <section id="analisis" class="page-section">
+          <div class="section-card">
+            <p class="eyebrow">Página académica 2</p>
+            <h2>El scroll infinito y las notificaciones como estrategias para captar nuestra atención</h2>
+            <p>Las redes sociales operan como sistemas de recompensa continua. El diseño de notificaciones, el desplazamiento sin fin y la gratificación inmediata convierten la interacción en un ciclo difícil de controlar.</p>
+          </div>
+
+          <div class="cards-grid two-cols">
+            <article class="info-card">
+              <h3>Introducción</h3>
+              <p>Los usuarios pasan de una publicación a otra sin pausa, lo que altera la atención consciente y favorece la multitarea emocional y cognitiva.</p>
+            </article>
+            <article class="info-card">
+              <h3>Cita directa APA 7</h3>
+              <blockquote>“Las características de desplazamiento continuo y recompensas intermitentes en las redes sociales transforman la atención del usuario en un recurso monetizable” (Alter, 2021, p. 112).</blockquote>
+            </article>
+            <article class="info-card">
+              <h3>Cita indirecta APA 7</h3>
+              <p>Alter (2021) afirma que el diseño de las aplicaciones estimula la vuelta constante, lo que puede deteriorar la concentración y aumentar la ansiedad.</p>
+            </article>
+            <article class="info-card">
+              <h3>Análisis reflexivo</h3>
+              <p>El usuario a menudo cree que elige libremente cuándo entrar y salir, pero el diseño del producto organiza la experiencia y condiciona el comportamiento.</p>
+            </article>
+          </div>
+
+          <div class="media-grid">
+            <figure class="media-card">
+              <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80" alt="Estudiante usando el celular para estudiar" />
+              <figcaption>Uso sostenido del celular durante el estudio.</figcaption>
+            </figure>
+            <figure class="media-card">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80" alt="Notificaciones en pantalla" />
+              <figcaption>Las notificaciones actúan como estímulos repetitivos que captan la atención.</figcaption>
+            </figure>
+          </div>
+
+          <div class="video-card">
+            <h3>Video explicativo</h3>
+            <div class="video-frame">
+              <iframe src="https://www.youtube.com/embed/5qE9PSdo3gk" title="Video educativo sobre diseño de redes sociales" allowfullscreen></iframe>
+            </div>
+          </div>
+
+          <div class="resource-card">
+            <h3>Recurso Web 2.0</h3>
+            <p>Infografía interactiva sobre la adicción a las redes y su relación con el rendimiento académico.</p>
+            <div class="map-frame">
+              <iframe src="https://www.canva.com/design/DAHOGEyTMC0/preview?embed" title="Infografía Canva" allowfullscreen></iframe>
+            </div>
+            <p class="caption">Infografía creada en Canva. Fuente: <a href="https://www.canva.com/design/DAHOGEyTMC0/NcacXbCxyGjifETcnimx8g/view?utm_content=DAHOGEyTMC0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks" target="_blank" rel="noreferrer">Canva</a>.</p>
+          </div>
+
+          <div class="section-card">
+            <h3>Referencias APA 7</h3>
+            <ol>
+              <li>Alter, A. (2021). <em>La adicción al contenido digital</em>. Editorial Universitaria.</li>
+              <li>Smith, J., &amp; Pérez, M. (2023). Estrategias de diseño en redes sociales y su impacto en la atención. <em>Revista de Psicología Digital</em>, 15(2), 45-60.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="encuesta" class="page-section">
+          <div class="section-card">
+            <p class="eyebrow">Investigación de campo</p>
+            <h2>Encuesta de 10 preguntas y análisis técnico</h2>
+            <p>La encuesta busca identificar el tiempo diario de uso, el impacto emocional, las interrupciones por notificaciones y la relación entre hábitos digitales y rendimiento escolar.</p>
+          </div>
+
+          <div class="embed-card">
+            <h3>Google Forms</h3>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc5Q8u2JbZrZUEhJ_5M3G_zs49xFscREyX7uFYK4JhWEQn3Ew/viewform?embedded=true" title="Encuesta Google Forms"></iframe>
+          </div>
+
+          <div class="cards-grid two-cols">
+            <article class="info-card">
+              <h3>Resultados</h3>
+              <canvas id="usageChart" width="500" height="280"></canvas>
+            </article>
+            <article class="info-card">
+              <h3>Impacto en notas</h3>
+              <canvas id="gradesChart" width="500" height="280"></canvas>
+            </article>
+          </div>
+
+          <div class="section-card">
+            <h3>Análisis técnico</h3>
+            <p>Los datos sugieren que los estudiantes con mayor exposición a notificaciones y tiempos prolongados en redes perciben una menor capacidad de concentración y un mayor deterioro en su bienestar emocional.</p>
+          </div>
+
+          <div class="section-card">
+            <h3>Mapa interactivo</h3>
+            <div class="map-frame">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.964650332268!2d-77.03574878471511!3d-12.04637309130712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c868459dd4a3%3A0xbf0c6ed15f243ca7!2sPontificia%20Universidad%20Cat%C3%B3lica%20del%20Per%C3%BA!5e0!3m2!1ses!2spe!4v1700000000000!5m2!1ses!2spe" allowfullscreen loading="lazy"></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="aprendizaje" class="page-section">
+          <div class="section-card">
+            <p class="eyebrow">Aprendizaje colaborativo</p>
+            <h2>Evidencias de trabajo y bitácora reflexiva</h2>
+            <p>La colaboración del equipo se organizó con calendarios, reuniones virtuales y un registro continuo del progreso.</p>
+          </div>
+
+          <div class="cards-grid two-cols">
+            <article class="info-card">
+              <h3>Google Calendar</h3>
+              <p>Se usó para planificar sesiones, plazos y reuniones de seguimiento.</p>
+            </article>
+            <article class="info-card">
+              <h3>Google Meet</h3>
+              <p>Se organizaron reuniones para revisar contenido, discutir hallazgos y ajustar la presentación final.</p>
+            </article>
+            <article class="info-card">
+              <h3>Chats del equipo</h3>
+              <p>La comunicación en tiempo real permitió resolver dudas, asignar tareas y mejorar la cohesión del proyecto.</p>
+            </article>
+            <article class="info-card">
+              <h3>Bitácora reflexiva</h3>
+              <p>Se registraron aprendizajes, decisiones en equipo y reflexiones sobre el proceso de investigación y diseño.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="conclusiones" class="page-section">
+          <div class="section-card">
+            <p class="eyebrow">Conclusiones</p>
+            <h2>Hallazgos finales del proyecto</h2>
+            <p>El estudio confirma que el diseño persuasivo de las redes incide en la atención, la motivación y el estado emocional del estudiante.</p>
+          </div>
+
+          <div class="cards-grid two-cols">
+            <article class="info-card">
+              <h3>Conclusión individual 1</h3>
+              <p>El uso constante de redes sociales puede reducir la capacidad de concentración y afectar la calidad de las notas.</p>
+            </article>
+            <article class="info-card">
+              <h3>Conclusión individual 2</h3>
+              <p>Las notificaciones crean interrupciones frecuentes y empeoran la organización del tiempo de estudio.</p>
+            </article>
+            <article class="info-card">
+              <h3>Conclusión individual 3</h3>
+              <p>La ansiedad y la distracción aumentan cuando el usuario recurre a estas plataformas como mecanismo de escape inmediato.</p>
+            </article>
+            <article class="info-card">
+              <h3>Conclusión individual 4</h3>
+              <p>Promover hábitos digitales saludables es esencial para proteger el bienestar emocional y el rendimiento académico.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="autoria" class="page-section">
+          <div class="section-card">
+            <p class="eyebrow">Autoría</p>
+            <h2>Yadira Giulianna Donayre Ttito</h2>
+            <p>Presentación académica con datos de autoría, formación y enlaces profesionales.</p>
+          </div>
+
+          <div class="profile-card">
+            <img src="yadira.jpg" alt="Foto de Yadira Giulianna Donayre Ttito" onerror="this.onerror=null;this.src='https://api.dicebear.com/6.x/adventurer/svg?seed=Yadira+Giulianna'" />
+            <div>
+              <h3>Yadira Giulianna Donayre Ttito</h3>
+              <p><strong>Carrera:</strong> Ingeniería Civil</p>
+              <p><strong>Intereses:</strong> infraestructura sostenible, gestión de proyectos y el uso de tecnologías digitales en la ingeniería.</p>
+              <p><strong>Descripción:</strong> Estudiante de Ingeniería Civil enfocada en análisis técnico, diseño estructural y la aplicación de herramientas digitales para optimizar procesos constructivos.</p>
+              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yadira-donayre-0b0346410?trk=contact-info" target="_blank" rel="noreferrer">linkedin.com/in/yadira-donayre-0b0346410</a></p>
+            </div>
+          </div>
+
+          <div class="section-card">
+            <h3>Symbaloo PLE</h3>
+            <div class="map-frame">
+              <iframe src="https://www.symbaloo.com/embed?tab=1" title="Symbaloo PLE"></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

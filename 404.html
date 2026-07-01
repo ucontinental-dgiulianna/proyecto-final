@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirigiendo...</title>
+    <script>
+      const path = location.pathname.replace(/\/+$/, "");
+      const target = path && path !== "/" ? `/index.html#${path.replace("/", "")}` : "/index.html";
+      window.location.replace(target);
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo al sitio principal…</p>
+  </body>
+</html>
